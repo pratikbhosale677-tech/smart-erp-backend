@@ -1,0 +1,208 @@
+Folder PATH listing for volume OS
+Volume serial number is 000000A8 76E7:1058
+C:.
+¦   .gitignore
+¦   pom.xml
+¦   structure.txt
+¦   
++---.idea
+¦       .gitignore
+¦       compiler.xml
+¦       encodings.xml
+¦       jarRepositories.xml
+¦       misc.xml
+¦       workspace.xml
+¦       
++---.mvn
++---src
+¦   +---main
+¦   ¦   +---java
+¦   ¦   ¦   +---com
+¦   ¦   ¦       +---pratik
+¦   ¦   ¦           ¦   Main.java
+¦   ¦   ¦           ¦   
+¦   ¦   ¦           +---smart_erp
+¦   ¦   ¦               ¦   SmartErpApplication.java
+¦   ¦   ¦               ¦   
+¦   ¦   ¦               +---company
+¦   ¦   ¦               ¦   +---controller
+¦   ¦   ¦               ¦   ¦       CompanyController.java
+¦   ¦   ¦               ¦   ¦       
+¦   ¦   ¦               ¦   +---entity
+¦   ¦   ¦               ¦   ¦       Company.java
+¦   ¦   ¦               ¦   ¦       
+¦   ¦   ¦               ¦   +---repository
+¦   ¦   ¦               ¦   ¦       CompanyRepository.java
+¦   ¦   ¦               ¦   ¦       
+¦   ¦   ¦               ¦   +---service
+¦   ¦   ¦               ¦           CompanyService.java
+¦   ¦   ¦               ¦           
+¦   ¦   ¦               +---config
+¦   ¦   ¦               ¦       CorsConfig.java
+¦   ¦   ¦               ¦       
+¦   ¦   ¦               +---controller
+¦   ¦   ¦               ¦       AuthController.java
+¦   ¦   ¦               ¦       EmployeeController.java
+¦   ¦   ¦               ¦       UserController.java
+¦   ¦   ¦               ¦       
+¦   ¦   ¦               +---dashboard
+¦   ¦   ¦               ¦   +---controller
+¦   ¦   ¦               ¦   ¦       DashboardController.java
+¦   ¦   ¦               ¦   ¦       
+¦   ¦   ¦               ¦   +---dto
+¦   ¦   ¦               ¦   ¦       CompanyEmployeeReportDTO.java
+¦   ¦   ¦               ¦   ¦       DashboardDTO.java
+¦   ¦   ¦               ¦   ¦       UserRequestDTO.java
+¦   ¦   ¦               ¦   ¦       
+¦   ¦   ¦               ¦   +---service
+¦   ¦   ¦               ¦           DashboardService.java
+¦   ¦   ¦               ¦           DashboardServiceImpl.java
+¦   ¦   ¦               ¦           
+¦   ¦   ¦               +---department
+¦   ¦   ¦               ¦   +---controller
+¦   ¦   ¦               ¦   ¦       DepartmentController.java
+¦   ¦   ¦               ¦   ¦       
+¦   ¦   ¦               ¦   +---entity
+¦   ¦   ¦               ¦   ¦       Department.java
+¦   ¦   ¦               ¦   ¦       
+¦   ¦   ¦               ¦   +---repository
+¦   ¦   ¦               ¦   ¦       DepartmentRepository.java
+¦   ¦   ¦               ¦   ¦       
+¦   ¦   ¦               ¦   +---service
+¦   ¦   ¦               ¦           DepartmentService.java
+¦   ¦   ¦               ¦           DepartmentServiceImpl.java
+¦   ¦   ¦               ¦           
+¦   ¦   ¦               +---dto
+¦   ¦   ¦               ¦       LoginRequest.java
+¦   ¦   ¦               ¦       LoginResponse.java
+¦   ¦   ¦               ¦       
+¦   ¦   ¦               +---entity
+¦   ¦   ¦               ¦       Employee.java
+¦   ¦   ¦               ¦       User.java
+¦   ¦   ¦               ¦       
+¦   ¦   ¦               +---exception
+¦   ¦   ¦               ¦       ErrorResponse.java
+¦   ¦   ¦               ¦       GlobalExceptionHandler.java
+¦   ¦   ¦               ¦       ResourceNotFoundException.java
+¦   ¦   ¦               ¦       
+¦   ¦   ¦               +---repository
+¦   ¦   ¦               ¦       EmployeeRepository.java
+¦   ¦   ¦               ¦       UserRepository.java
+¦   ¦   ¦               ¦       
+¦   ¦   ¦               +---response
+¦   ¦   ¦               ¦       ApiResponse.java
+¦   ¦   ¦               ¦       
+¦   ¦   ¦               +---security
+¦   ¦   ¦               ¦       JwtFilter.java
+¦   ¦   ¦               ¦       JwtUtil.java
+¦   ¦   ¦               ¦       SecurityConfig.java
+¦   ¦   ¦               ¦       
+¦   ¦   ¦               +---service
+¦   ¦   ¦               ¦       EmployeeService.java
+¦   ¦   ¦               ¦       UserService.java
+¦   ¦   ¦               ¦       UserServiceImpl.java
+¦   ¦   ¦               ¦       
+¦   ¦   ¦               +---userDTO
+¦   ¦   ¦                       UserRequestDTO.java
+¦   ¦   ¦                       UserResponseDTO.java
+¦   ¦   ¦                       
+¦   ¦   +---resources
+¦   ¦           application.properties
+¦   ¦           
+¦   +---test
+¦       +---java
++---target
+    +---classes
+    ¦   ¦   application.properties
+    ¦   ¦   
+    ¦   +---com
+    ¦       +---pratik
+    ¦           ¦   Main.class
+    ¦           ¦   
+    ¦           +---smart_erp
+    ¦               ¦   SmartErpApplication.class
+    ¦               ¦   
+    ¦               +---company
+    ¦               ¦   +---controller
+    ¦               ¦   ¦       CompanyController.class
+    ¦               ¦   ¦       
+    ¦               ¦   +---entity
+    ¦               ¦   ¦       Company.class
+    ¦               ¦   ¦       
+    ¦               ¦   +---repository
+    ¦               ¦   ¦       CompanyRepository.class
+    ¦               ¦   ¦       
+    ¦               ¦   +---service
+    ¦               ¦           CompanyService.class
+    ¦               ¦           
+    ¦               +---config
+    ¦               ¦       CorsConfig.class
+    ¦               ¦       
+    ¦               +---controller
+    ¦               ¦       AuthController.class
+    ¦               ¦       EmployeeController.class
+    ¦               ¦       UserController.class
+    ¦               ¦       
+    ¦               +---dashboard
+    ¦               ¦   +---controller
+    ¦               ¦   ¦       DashboardController.class
+    ¦               ¦   ¦       
+    ¦               ¦   +---dto
+    ¦               ¦   ¦       CompanyEmployeeReportDTO.class
+    ¦               ¦   ¦       DashboardDTO.class
+    ¦               ¦   ¦       UserRequestDTO.class
+    ¦               ¦   ¦       
+    ¦               ¦   +---service
+    ¦               ¦           DashboardService.class
+    ¦               ¦           DashboardServiceImpl.class
+    ¦               ¦           
+    ¦               +---department
+    ¦               ¦   +---controller
+    ¦               ¦   ¦       DepartmentController.class
+    ¦               ¦   ¦       
+    ¦               ¦   +---entity
+    ¦               ¦   ¦       Department.class
+    ¦               ¦   ¦       
+    ¦               ¦   +---repository
+    ¦               ¦   ¦       DepartmentRepository.class
+    ¦               ¦   ¦       
+    ¦               ¦   +---service
+    ¦               ¦           DepartmentService.class
+    ¦               ¦           DepartmentServiceImpl.class
+    ¦               ¦           
+    ¦               +---dto
+    ¦               ¦       LoginRequest.class
+    ¦               ¦       LoginResponse.class
+    ¦               ¦       
+    ¦               +---entity
+    ¦               ¦       Employee.class
+    ¦               ¦       User.class
+    ¦               ¦       
+    ¦               +---exception
+    ¦               ¦       ErrorResponse.class
+    ¦               ¦       GlobalExceptionHandler.class
+    ¦               ¦       ResourceNotFoundException.class
+    ¦               ¦       
+    ¦               +---repository
+    ¦               ¦       EmployeeRepository.class
+    ¦               ¦       UserRepository.class
+    ¦               ¦       
+    ¦               +---response
+    ¦               ¦       ApiResponse.class
+    ¦               ¦       
+    ¦               +---security
+    ¦               ¦       JwtFilter.class
+    ¦               ¦       JwtUtil.class
+    ¦               ¦       SecurityConfig.class
+    ¦               ¦       
+    ¦               +---service
+    ¦               ¦       EmployeeService.class
+    ¦               ¦       UserService.class
+    ¦               ¦       UserServiceImpl.class
+    ¦               ¦       
+    ¦               +---userDTO
+    ¦                       UserRequestDTO.class
+    ¦                       UserResponseDTO.class
+    ¦                       
+    +---generated-sources
+        +---annotations
